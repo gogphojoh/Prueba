@@ -23,7 +23,7 @@ namespace Prueba
 
         public double CalcularPrecio()
         {
-            TimeSpan tiempoEstacionado = HoraEntrada - HoraSalida;
+            TimeSpan tiempoEstacionado = HoraSalida - HoraEntrada;
             int horas = tiempoEstacionado.Hours + 1; // Redondea hacia arriba
             double precioPorHora = 30;
 
