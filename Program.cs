@@ -7,7 +7,7 @@
         
         static void Main()
         {
-
+            Console.WriteLine("SEXOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
             Estacionamiento estacionamiento = new Estacionamiento();
             Semaforo semaforo = new Semaforo();
             Posicion pos = new Posicion();
