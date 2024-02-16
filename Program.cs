@@ -13,7 +13,6 @@
             string opcion = "";
             do
             {
-                Console.Clear();
                 semaforo.MostrarSemaforo();
                 Console.WriteLine("Estacionamiento - Star Medica");
                 Console.WriteLine("Menu \n Introduce uno de los numeros en los corchetes para realizar una accion: \n [1]Resgitrar entrada de un coche \n [2]Registrar salida de un coche \n [3]Mostrar estado del estacionamiento \n [4]Salir del programa");
