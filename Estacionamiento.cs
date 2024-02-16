@@ -34,8 +34,6 @@ namespace Prueba
             tarjetasRegistradas.Add(tarjeta);
             Random rnd = new Random();
             int posicion = rnd.Next(1, capacidadMaxima + 1);
-            posicionesOcupadas.Add(posicion);
-            Console.WriteLine("La posición ocupada es: " + posicion);
             Console.WriteLine($"La barrera se ha levantado. Pasa al estacionamiento");
             contador ++;
             ob.HoraEntrada = DateTime.Now;
